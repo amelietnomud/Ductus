@@ -1,0 +1,1947 @@
+prologues:=3;
+verbatimtex
+\documentclass{minimal}
+\begin{document}
+etex
+
+%a
+beginfig(0);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4{dir 220}..z5{dir 210}..{dir 50}z7;
+endfig;
+
+%a bis
+beginfig(160);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4--z5{dir 210}..{dir 50}z7;
+endfig;
+
+%b
+beginfig(9);
+z2=(1,9);
+z3=(1,1);
+z4=(1,5);
+z5=(5,1.5);
+z7=(1,1.5);
+draw z2--z3;
+draw z4..z5{dir 240}..{dir 200}z7;
+endfig;
+
+%b bis
+beginfig(27);
+z2=(1,9);
+z3=(1,1);
+z4=(1,5);
+z5=(5,1.5);
+z7=(1,1.9);
+draw z2--z3;
+draw z4..z5{dir 225}..{dir 130}z7;
+endfig;
+
+%c
+beginfig(7);
+z4=(5,4);
+z5=(2,4);
+z7=(5,1);
+draw z4..z5{dir 240}..z7;
+endfig;
+
+%c bis
+beginfig(28);
+z4=(5,4);
+z5=(1,4);
+z7=(5,1);
+draw z4..z5{dir 240}..z7;
+endfig;
+
+%d
+beginfig(1);
+z2=(5,9);
+z3=(5,1);
+z4=(5,5);
+z5=(1,5);
+z7=(5,2);
+draw z2--z3;
+draw z4{dir 180}..z5{dir 230}..{dir 50}z7;
+endfig;
+
+%d bis
+beginfig(29);
+z2=(5,9);
+z3=(5,1);
+z4=(5,5);
+z5=(1,5);
+z7=(5,2);
+draw z2--z3;
+draw z4{dir 130}..z5{dir 230}..{dir 50}z7;
+endfig;
+
+%e
+beginfig(2);
+z2=(2,2);
+z3=(5,4.5);
+z5=(2,5);
+z1=(3,1);
+z7=(5,1);
+draw z2--z3;
+draw z3..z5..z1..z7;
+endfig;
+
+%f
+beginfig(10);
+z1=(5,8);
+z2=(2,6);
+z3=(2,1);
+z4=(1,5);
+z5=(4,5);
+draw z1{dir 150}..{dir 270}z2--z3;
+draw z4--z5;
+endfig;
+
+%f bis
+beginfig(30);
+z1=(5,8);
+z2=(2,6);
+z3=(2,1);
+z4=(1,5);
+z5=(4,5);
+draw z1{dir 170}..{dir 190}z2--z3;
+draw z4--z5;
+endfig;
+
+%g
+beginfig(11);
+z1=(5,4);
+z2=(1,4);
+z3=(5,1);
+z4=(5,5);
+z5=(5,-0.8);
+z6=(1,-0.9);
+draw z1..z2{dir 240}..z3;
+draw z4--z5{dir 270}..{dir 130}z6;
+endfig;
+
+%g bis
+beginfig(31);
+z1=(5,4);
+z2=(1,4);
+z3=(5,1);
+z4=(5,5);
+z5=(5,-0.8);
+z6=(1,-0.9);
+draw z1{dir 200}..z2{dir 240}..z3;
+draw z4--z5{dir 270}..{dir 220}z6;
+endfig;
+
+%h
+beginfig(12);
+z1=(1,1);
+z2=(1,8);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+draw z1--z2;
+draw z3{dir 40}..{dir 270}z4..{dir 330}z5;
+endfig;
+
+%h bis
+beginfig(32);
+z1=(1,1);
+z2=(1,8);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+draw z1--z2;
+draw z3{dir 40}..{dir 270}z4--z5;
+endfig;
+
+%i
+beginfig(13);
+z1=(1,1);
+z2=(1,5);
+z3=(0.5,6);
+z4=(1.5,6.5);
+z5=(1.2, 6.8);
+draw z1--z2;
+draw z3--z4;
+draw z3--z5;
+endfig;
+
+%j
+beginfig(14);
+z1=(1.5,-0.8);
+z2=(1.5,5);
+z3=(1,6);
+z4=(2,6.5);
+z5=(1.7, 6.8);
+z6=(0,-1.9);
+draw z2--z1{dir 270}..{dir 150}z6;
+draw z3--z4;
+draw z3--z5;
+endfig;
+
+%k
+beginfig(15);
+z1=(1,0);
+z2=(1,9);
+z3=(4,5);
+z4=(1,3);
+z5=(5,0);
+z6=(0,-1.9);
+draw z1--z2;
+draw z3{dir 200}..{dir 180}z4{dir 90}..{dir 305}z5;
+endfig;
+
+%k bis
+beginfig(33);
+z1=(1,0);
+z2=(1,9);
+z3=(4,5);
+z4=(1,3);
+z5=(1.8,3.5);
+z6=(5,0);
+draw z1--z2;
+draw z3--z4;
+draw z5--z6;
+endfig;
+
+%l
+beginfig(16);
+z1=(1,0);
+z2=(1,9);
+draw z1--z2;
+endfig;
+
+%m
+beginfig(17);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+z6=(4,4);
+z7=(7,4);
+z8=(7,1);
+draw z1--z2;
+draw z3{dir 30}..{dir 270}z4--z5;
+draw z6{dir 30}..{dir 270}z7..{dir 330}z8;
+endfig;
+
+%m bis
+beginfig(34);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+z6=(4,4);
+z7=(7,4);
+z8=(7,1);
+draw z1--z2;
+draw z3{dir 30}..{dir 270}z4--z5;
+draw z6{dir 30}..{dir 270}z7--z8;
+endfig;
+
+%n
+beginfig(6);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+draw z1--z2;
+draw z3{dir 30}..{dir 270}z4..{dir 330}z5;
+endfig;
+
+%n bis
+beginfig(35);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4);
+z5=(4,1);
+draw z1--z2;
+draw z3{dir 30}..{dir 270}z4--z5;
+endfig;
+
+%o
+beginfig(3);
+z5=(2,5);
+z7=(5,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+endfig;
+
+%p
+beginfig(18);
+z2=(1,5);
+z3=(1,-2);
+z4=(1,4.2);
+z5=(5,1.5);
+z7=(1,1.5);
+draw z2--z3;
+draw z4..z5{dir 240}..{dir 200}z7;
+endfig;
+
+%p bis
+beginfig(36);
+z2=(1,5);
+z3=(1,-2);
+z4=(1,4.2);
+z5=(5,1.5);
+z7=(1,1.5);
+draw z2--z3;
+draw z4..z5{dir 240}..{dir 130}z7;
+endfig;
+
+
+%q
+beginfig(19);
+z2=(5,5);
+z3=(5,-2);
+z4=(5,5);
+z5=(1,5);
+z7=(5,2);
+draw z2--z3;
+draw z4{dir 180}..z5{dir 230}..{dir 50}z7;
+endfig;
+
+%q bis
+beginfig(37);
+z2=(5,5);
+z3=(5,-2);
+z4=(5,5);
+z5=(1,5);
+z7=(5,2);
+draw z2--z3;
+draw z4{dir 130}..z5{dir 230}..{dir 50}z7;
+endfig;
+
+%r
+beginfig(5);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4);
+draw z1--z2;
+draw z3{dir 40}..{dir 260}z4;
+endfig;
+
+%r bis
+beginfig(38);
+z1=(1,1);
+z2=(1,5);
+z3=(1,4);
+z4=(4,4.4);
+draw z1--z2;
+draw z3{dir 300}..{dir 290}z4;
+endfig;
+
+%s
+beginfig(4);
+z1=(2,4);
+z2=(4,1);
+z3=(4,4);
+z4=(1.5,1.5);
+draw z3{dir 130}..z1{dir 250}..{dir 230}z2{dir 220}..z4;
+endfig;
+
+%t
+beginfig(20);
+z2=(2,6);
+z3=(2,0.7);
+z4=(3,0);
+z5=(1,5);
+z7=(3.2,5);
+draw z2--z3{dir 270}..{dir 350}z4;
+draw z5--z7;
+endfig;
+
+%t bis
+beginfig(40);
+z2=(2,6);
+z3=(2,0.7);
+z4=(3,0);
+z5=(1,5);
+z7=(3.2,5);
+draw z2--z3--z4;
+draw z5--z7;
+endfig;
+
+%u
+beginfig(21);
+z1=(4.5,0);
+z2=(4.5,5);
+z3=(4.5,1);
+z4=(0.5,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+endfig;
+
+%u bis
+beginfig(39);
+z1=(4.5,0);
+z2=(4.5,5);
+z3=(4.5,1);
+z4=(1,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+endfig;
+
+%v
+beginfig(22);
+z3=(0,5);
+z4=(3,0);
+z5=(5,5);
+draw z3{dir 270}..{dir 50}z4..{dir 30}z5;
+endfig;
+
+%v bis
+beginfig(41);
+z3=(0,5);
+z4=(2.5,0);
+z5=(5,5);
+draw z3--z4--z5;
+endfig;
+
+%w
+beginfig(23);
+z3=(1,5);
+z4=(3,0);
+z5=(5,4.5);
+z7=(7,0);
+z8=(9,5);
+draw z3--z4..{dir 80}z5;
+draw z5--z7..{dir 80}z8;
+endfig;
+
+%w bis
+beginfig(42);
+z3=(1,5);
+z4=(3,0);
+z5=(5,4.5);
+z7=(7,0);
+z8=(9,5);
+draw z3--z4--z5;
+draw z5--z7--z8;
+endfig;
+
+%x
+beginfig(24);
+z3=(1,5);
+z4=(5,0);
+z5=(5,5);
+z7=(3,2.5);
+z8=(1,0);
+draw z3--z4;
+draw z5{dir 200}..{dir 220}z7;
+draw z7{dir 240}..{dir 260}z8;
+endfig;
+
+%x bis
+beginfig(43);
+z3=(1,5);
+z4=(5,0);
+z5=(5,5);
+z7=(3,2.5);
+z8=(1,0);
+draw z3--z4;
+draw z5--z7;
+draw z7--z8;
+endfig;
+
+%y
+beginfig(25);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+z6=(5,5);
+z7=(5,-0.8);
+z8=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z6--z7{dir 270}..{dir 190}z8;
+endfig;
+
+%y bis
+beginfig(44);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+z6=(5,5);
+z7=(5,-0.8);
+z8=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z6--z7{dir 270}..{dir 140}z8;
+endfig;
+
+%z
+beginfig(26);
+z1=(1.2,5);
+z2=(5,5);
+z3=(1,0);
+z4=(5,0);
+draw z1--z2--z3--z4;
+endfig;
+
+%A
+beginfig(45);
+z1=(1,0);
+z2=(4,7);
+z3=(7,0);
+z4=(2,2);
+z5=(6,2);
+draw z1--z2--z3;
+draw z4--z5;
+endfig;
+
+%B
+beginfig(46);
+z1=(1,0);
+z2=(1,7);
+z3=(4,5);
+z4=(1,3.7);
+z5=(5,1.3);
+draw z1--z2{dir 10}..{dir 240}z3..{dir 190}z4;
+draw z4{dir 10}..{dir 240}z5..{dir 180}z1;
+endfig;
+
+%C
+beginfig(47);
+z4=(6,6.5);
+z5=(1,6.5);
+z7=(6,1);
+draw z4..z5{dir 230}..z7;
+endfig;
+
+%D
+beginfig(48);
+z1=(1,0);
+z2=(1,7);
+z5=(5.5,1.3);
+draw z1--z2{dir 10}..{dir 225}z5..{dir 180}z1;
+endfig;
+
+%E
+beging(49);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+z6=(5.5,0);
+draw z1--z2--z3;
+draw z4--z5;
+draw z1--z6;
+endfig;
+
+%F
+beging(50);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+draw z1--z2--z3;
+draw z4--z5;
+endfig;
+
+%G
+beginfig(51);
+z4=(6,6.5);
+z5=(1,6.5);
+z7=(6,1);
+z1=(6,3.5);
+z2=(3.5,3.5);
+draw z4..z5{dir 230}..z7--z1--z2;
+endfig;
+
+%H
+beginfig(52);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(5,3.7);
+z6=(5,0);
+draw z1--z2;
+draw z4--z5;
+draw z3--z6;
+endfig;
+
+%I
+beginfig(53);
+z1=(1,0);
+z2=(1,7);
+draw z1--z2;
+endfig;
+
+%J
+beginfig(54);
+z1=(3,2);
+z2=(3,7);
+z3=(1,0);
+draw z2--z1{dir 270}..{dir 170}z3;
+endfig;
+
+%K
+beginfig(55);
+z1=(1,0);
+z2=(1,7);
+z3=(2,4);
+z4=(1,3.2);
+z5=(4.2,7);
+z6=(5,0);
+draw z1--z2;
+draw z4--z5;
+draw z3--z6;
+endfig;
+
+%L
+beginfig(56);
+z1=(1,0);
+z2=(1,7);
+z4=(1,0);
+z5=(5,0);
+draw z1--z2;
+draw z4--z5;
+endfig;
+
+%M
+beginfig(57);
+z1=(1,0);
+z2=(1,7);
+z3=(4,1.5);
+z4=(7,7);
+z5=(7,0);
+draw z1--z2--z3--z4--z5;
+endfig;
+
+%N
+beginfig(58);
+z1=(1,0);
+z2=(1,7);
+z4=(6,7);
+z5=(6,0);
+draw z1--z2--z5--z4;
+endfig;
+
+%O
+beginfig(59);
+z5=(2,6);
+z7=(6,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+endfig;
+
+%P
+beginfig(60);
+z1=(1,0);
+z2=(1,7);
+z3=(4.5,4);
+z4=(1,3);
+draw z1--z2{dir 5}..{dir 240}z3..{dir 180}z4;
+endfig;
+
+%P bis
+beginfig();
+z1=(1,0);
+z2=(1,7);
+z3=(4.5,4);
+z4=(1,3);
+z7=(0.5,0);
+z8=(1.5,0);
+z11=(0.5,7);
+draw z1--z2{dir 0}..{dir 160}z3..{dir 180}z4;
+endfig;
+
+%Q
+beginfig(61);
+z5=(2,6);
+z7=(6,1);
+z1=(4,3.2);
+z2=(6.8,0);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+draw z1--z2;
+endfig;
+
+%R
+beginfig(62);
+z1=(1,0);
+z2=(1,7);
+z3=(4.5,4);
+z4=(1,3);
+z5=(4.5,0);
+z6=(2.5,3);
+draw z1--z2{dir 5}..{dir 240}z3..{dir 180}z4;
+draw z5--z6;
+endfig;
+
+%R bis
+beginfig;
+z1=(1,0);
+z2=(1,7);
+z3=(4.5,4);
+z4=(1,3);
+z5=(4.5,0);
+z6=(2.5,3);
+z7=(0.5,0);
+z8=(1.5,0);
+z9=(4,0);
+z10=(5,0);
+z11=(0.5,7);
+draw z1--z2{dir 40}..{dir 180}z3..{dir 150}z4;
+draw z5--z6;
+endfig;
+
+%R ter
+beginfig;
+z1=(1,0);
+z2=(1,7);
+z3=(4.5,4);
+z4=(1,3);
+z5=(4.5,0);
+z6=(2.5,3);
+z7=(0.5,0);
+z8=(1.5,0);
+z9=(4,0);
+z10=(5,0);
+z11=(0.5,7);
+draw z1--z2{dir 0}..{dir 180}z3..{dir 180}z4;
+draw z5--z6;
+endfig;
+
+%S
+beginfig(63);
+z1=(2,6);
+z2=(6,1);
+z3=(6,6);
+z4=(1.5,1.5);
+draw z3{dir 120}..z1{dir 250}..{dir 235}z2{dir 225}..z4;
+endfig;
+
+%S bis
+beginfig();
+z1=(2,6);
+z2=(6,1);
+z3=(6,6);
+z4=(1.5,1.5);
+draw z3{dir 210}..z1{dir 250}..{dir 225}z2{dir 135}..z4;
+
+%T
+beginfig(64);
+z1=(3.5,0);
+z2=(3.5,7);
+z4=(1,7);
+z5=(6,7);
+draw z1--z2;
+draw z4--z5;
+endfig;
+
+%U
+beginfig(65);
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 90}z4--z5;
+endfig;
+
+%U bis
+beginfig();
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 150}..{dir 100}z4..{dir 130}z5;
+endfig;
+
+%U ter
+beginfig();
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 70}z4..{dir 30}z5;
+endfig;
+
+%V
+beginfig(66);
+z2=(7,7);
+z4=(4,0);
+z5=(1,7);
+draw z2--z4--z5;
+endfig;
+
+%W
+beginfig(67);
+z2=(5.5,6);
+z4=(3,0);
+z5=(1,7);
+z1=(8,0);
+z3=(10,7);
+draw z5--z4--z2--z1--z3;
+endfig;
+
+%X
+beginfig(68);
+z3=(1,7);
+z4=(6,0);
+z5=(6,7);
+z7=(3.5,3.5);
+z8=(1,0);
+draw z3--z4;
+draw z5--z7;
+draw z7--z8;
+endfig;
+
+%Y
+beginfig(69);
+z3=(1,7);
+z4=(3.5,0);
+z5=(6,7);
+z7=(3.5,3.5);
+draw z3--z7--z4;
+draw z5--z7;
+endfig;
+
+%Z
+beginfig(70);
+z1=(1.2,7);
+z2=(6,7);
+z3=(1,0);
+z4=(6,0);
+draw z1--z2--z3--z4;
+endfig;
+
+%0
+beginfig(71);
+z5=(2,5.5);
+z7=(4,1);
+draw z5{dir 210}..z7;
+draw z7{dir 30}..z5;
+endfig;
+
+%1
+beginfig(77);
+z1=(1,3.5);
+z2=(3,5.5);
+z3=(3,0);
+draw z1{dir 30}..z2--z3;
+endfig;
+
+%2
+beginfig(72);
+z5=(1.5,5.5);
+z7=(4.5,4);
+z8=(1,0);
+z9=(5,0);
+draw z5{dir 60}..z7..{dir 270}z8--z9;
+endfig;
+
+%3
+beginfig(73);
+z5=(1.5,5.5);
+z7=(3,3);
+z8=(4.5,1);
+z9=(1,0.5);
+draw z5{dir 40}..{dir 200}z7;
+draw z7..{dir 270}z8..z9
+endfig;
+
+%4
+beginfig(79);
+z1=(1,1.5);
+z2=(3.5,5.5);
+z3=(3.5,0);
+z4=(5,1.5);
+draw z3--z2..{dir 220}z1--z4;
+endfig;
+
+%5
+beginfig(74);
+z4=(4, 5.5);
+z5=(1.3,5.5);
+z7=(1.3,3);
+z8=(4.5,1);
+z9=(1,0.5);
+draw z4--z5--z7..{dir 260}z8..z9;
+endfig;
+
+%6
+beginfig(75);
+z4=(3, 5.5);
+z7=(1.3,2.8);
+z8=(3.5,1);
+draw z7{dir 50}..z8{dir 210}..{dir 25}z4;
+endfig;
+
+%7
+beginfig(78);
+z1=(1,5.5);
+z2=(5,5.5);
+z3=(2.5,0);
+z4=(1.8,2.5);
+z5=(4.3,2.5);
+draw z1--z2{dir 230}..z3;
+draw z4--z5;
+endfig;
+
+%8
+beginfig(76);
+z1=(2.5,5.5);
+z2=(5,1);
+z3=(4,3.5);
+z4=(3.5,3.5);
+draw z3{dir 30}..z1{dir 250}..{dir 235}z2{dir 230}..{dir 30}z4;
+endfig;
+
+%9
+beginfig(80);
+z4=(1,0);
+z7=(3.5,2.8);
+z8=(1,5.5);
+draw z7{dir 200}..z8{dir 360}..z4;
+endfig;
+
+%?
+beginfig(81);
+z5=(1.5,5.5);
+z8=(3,2.5);
+z9=(3,2);
+z1=(3,1);
+z2=(3,0);
+draw z5{dir 45}..z8--z9;
+draw z1--z2;
+endfig;
+
+%!
+beginfig(82);
+z8=(3,6);
+z9=(3,2);
+z1=(3,1);
+z2=(3,0);
+draw z8--z9;
+draw z1--z2;
+endfig;
+
+%.
+beginfig(83);
+z1=(3,1);
+z2=(3,0);
+draw z1--z2;
+endfig;
+
+%:
+beginfig(84);
+z1=(3,1);
+z2=(3,0);
+z3=(3,3);
+z4=(3,4);
+draw z1--z2;
+draw z3--z4;
+endfig;
+
+%;
+beginfig(85);
+z1=(2.5,-2);
+z2=(3,0);
+z3=(3,3);
+z4=(3,4);
+draw z1..{dir 90}z2;
+draw z3--z4;
+endfig;
+
+%,
+beginfig(86);
+z1=(2.5,-2);
+z2=(3,0);
+draw z1..{dir 90}z2;
+endfig;
+
+%/
+beginfig(87);
+z1=(4,6);
+z2=(1,0);
+draw z1--z2;
+endfig;
+
+%-
+beginfig(88);
+z1=(4,3);
+z2=(1,3);
+draw z1--z2;
+endfig;
+
+%ç
+beginfig(89);
+z4=(5,4);
+z5=(1,4);
+z7=(5,1);
+z1=(2.5,-2);
+z2=(3,0);
+draw z1..{dir 90}z2;
+draw z4..z5{dir 240}..z7;
+endfig;
+
+%)
+beginfig(90);
+z1=(1,6);
+z2=(1,-1);
+draw z1..{dir 230}z2;
+endfig;
+
+%(
+beginfig(90);
+z1=(1,6);
+z2=(1,-1);
+draw z1..{dir 310}z2;
+endfig;
+
+%&
+beginfig(91);
+z1=(2.5,5.5);
+z2=(6.5,3.3);
+z3=(4.3,3.5);
+z4=(3.5,3.5);
+z5=(7,0);
+z6=(4,0);
+draw z3{dir 30}..z1{dir 250}..{dir 235}z5;
+draw z4{dir 200}..z6{dir 350}..z2;
+endfig;
+
+%'
+beginfig(86);
+z1=(2.5,6);
+z2=(3,8);
+draw z1..{dir 90}z2;
+endfig;
+
+%[
+beginfig(87);
+z1=(2,6);
+z2=(2,-1);
+z3=(1,6);
+z4=(1,-1);
+draw z1--z3--z4--z2;
+endfig;
+
+%]
+beginfig(88);
+z1=(2,6);
+z2=(2,-1);
+z3=(1,6);
+z4=(1,-1);
+draw z3--z1--z2--z4;
+endfig;
+
+%{
+beginfig(89);
+z1=(2.5,6);
+z2=(2.5,-1);
+z3=(1,2.5);
+draw z1{dir 180}..{dir 180}z3;
+draw z3{dir 0}..{dir 0}z2;
+endfig;
+
+%}
+beginfig(90);
+z1=(1,6);
+z2=(1,-1);
+z3=(2.5,2.5);
+draw z1{dir 0}..{dir 0}z3;
+draw z3{dir 180}..{dir 180}z2;
+endfig;
+
+%@
+beginfig(91);
+z4=(4.6,3.5);
+z5=(2.4,3.5);
+z7=(4.6,1.5);
+z1=(4.6,4);
+z2=(6.5,1.5);
+z3=(1,5);
+z6=(6,-0.5);
+draw z4..z5{dir 230}..z7;
+draw z1--z7{dir 270}..z2{dir 60}..z3..z6;
+endfig;
+
+%euro
+beginfig(92);
+z4=(7,6.5);
+z5=(2,6.5);
+z7=(7,1);
+z1=(0,4.5);
+z2=(4,4.5);
+z3=(0,3.5);
+z6=(4,3.5);
+draw z4..z5{dir 230}..z7;
+draw z1--z2;
+draw z3--z6;
+endfig;
+
+%$
+beginfig(93);
+z1=(2,6);
+z2=(6,1);
+z3=(6,6);
+z4=(1.5,1.5);
+z5=(4,7.8);
+z6=(4,-0.3);
+draw z3{dir 120}..z1{dir 250}..{dir 235}z2{dir 225}..z4;
+draw z5--z6;
+endfig;
+
+%yen
+beginfig(94);
+z3=(1,7);
+z4=(3.5,0);
+z5=(6,7);
+z7=(3.5,3.5);
+z1=(2,2.5);
+z2=(5,2.5);
+z8=(2,3.5);
+z6=(5,3.5);
+draw z3--z7--z4;
+draw z5--z7;
+draw z1--z2;
+draw z8--z6;
+endfig;
+
+%+
+beginfig(95);
+z1=(4,3);
+z2=(1,3);
+z3=(2.5,4.5);
+z4=(2.5,1.5);
+draw z1--z2;
+draw z3--z4;
+endfig;
+
+%tiret moyen
+beginfig(96);
+z1=(5,3);
+z2=(1,3);
+draw z1--z2;
+endfig;
+
+%tiret incise
+beginfig(97);
+z1=(6,3);
+z2=(1,3);
+draw z1--z2;
+endfig;
+
+%_
+beginfig(98);
+z1=(5,0);
+z2=(1,0);
+draw z1--z2;
+endfig;
+
+%=
+beginfig(99);
+z1=(4,2.5);
+z2=(1,2.5);
+z3=(4,4);
+z4=(1,4);
+draw z1--z2;
+draw z3--z4;
+endfig;
+
+%^
+beginfig(100);
+z1=(1.5,6);
+z2=(3,7);
+z3=(4.5,6);
+draw z1--z2--z3;
+endfig;
+
+%aigu
+beginfig(101);
+z1=(1.5,6);
+z2=(4.5,7);
+draw z1--z2;
+endfig;
+
+%grave
+beginfig(102);
+z1=(1.5,7);
+z2=(4.5,6);
+draw z1--z2;
+endfig;
+
+%trema
+beginfig(103);
+z1=(2,6);
+z2=(4,6);
+z3=(2,6.5);
+z4=(4,6.5);
+draw z1--z3;
+draw z2--z4;
+endfig;
+
+%#
+beginfig(104);
+z1=(5,1.5);
+z2=(1,1.5);
+z3=(5,3.5);
+z4=(1,3.5);
+z5=(2.5,5);
+z6=(2,0);
+z7=(4,5);
+z8=(3.5,0);
+draw z1--z2;
+draw z3--z4;
+draw z5--z6;
+draw z7--z8;
+endfig;
+
+%a aigu
+beginfig(105);
+z6=(2.5,6.2);
+z8=(4.5,7.5);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4{dir 220}..z5{dir 210}..{dir 50}z7;
+draw z6--z8;
+endfig;
+
+%e aigu
+beginfig(106);
+z6=(2,6.2);
+z8=(4,7.5);
+z2=(2,2);
+z3=(5,4.5);
+z5=(2,5);
+z1=(3,1);
+z7=(5,1);
+draw z2--z3;
+draw z3..z5..z1..z7;
+draw z6--z8;
+endfig;
+
+%i aigu
+beginfig(107);
+z6=(0.8,6.2);
+z8=(1.5,7.5);
+z1=(1,1);
+z2=(1,5);
+draw z1--z2;
+draw z6--z8;
+endfig;
+
+%o aigu
+beginfig(108);
+z6=(2.5,6.2);
+z8=(4.5,7.5);
+z5=(2,5);
+z7=(5,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+draw z6--z8;
+endfig;
+
+%u aigu bis
+beginfig(109);
+z6=(2.5,6.2);
+z8=(4.5,7.5);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1.5,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z6--z8;
+endfig;
+
+%u aigu
+beginfig(110);
+z6=(2.5,6.2);
+z8=(4.5,7.5);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z6--z8;
+endfig;
+
+%y bis aigu
+beginfig(111);
+z6=(2.5,6.2);
+z8=(4.5,7.5);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1.5,1);
+z5=(1.5,5);
+z9=(5,5);
+z7=(5,-0.8);
+z10=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z9--z7{dir 270}..{dir 190}z10;
+draw z6--z8;
+endfig;
+
+%y aigu
+beginfig(112);
+z6=(2,6.2);
+z8=(4,7.5);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+z9=(5,5);
+z7=(5,-0.8);
+z10=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z9--z7{dir 270}..{dir 140}z10;
+draw z6--z8;
+endfig;
+
+%a grave
+beginfig(113);
+z6=(2.8,7);
+z8=(4.5,6);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4{dir 220}..z5{dir 210}..{dir 50}z7;
+draw z6--z8;
+endfig;
+
+%e grave
+beginfig(114);
+z6=(2,7);
+z8=(4.5,6.2);
+z2=(2,2);
+z3=(5,4.5);
+z5=(2,5);
+z1=(3,1);
+z7=(5,1);
+draw z2--z3;
+draw z3..z5..z1..z7;
+draw z6--z8;
+endfig;
+
+%i grave
+beginfig(115);
+z6=(0.8,7);
+z8=(1.2,6.2);
+z1=(1,1);
+z2=(1,5);
+draw z1--z2;
+draw z6--z8;
+endfig;
+
+%o grave
+beginfig(116);
+z6=(2.3,7);
+z8=(4.8,6.2);
+z5=(2,5);
+z7=(5,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+draw z6--z8;
+endfig;
+
+%u grave bis
+beginfig(117);
+z6=(2,7);
+z8=(4.5,6.2);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1.5,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z6--z8;
+endfig;
+
+%u grave
+beginfig(118);
+z6=(2,7);
+z8=(4.5,6.2);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z6--z8;
+endfig;
+
+%a^
+beginfig(119);
+z6=(2,6);
+z8=(3.5,7);
+z9=(5,6);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4{dir 220}..z5{dir 210}..{dir 50}z7;
+draw z6--z8--z9;
+endfig;
+
+%e^
+beginfig(120);
+z6=(1.8,6);
+z8=(3.3,7);
+z9=(4.8,6);
+z2=(2,2);
+z3=(5,4.5);
+z5=(2,5);
+z1=(3,1);
+z7=(5,1);
+draw z2--z3;
+draw z3..z5..z1..z7;
+draw z6--z8--z9;
+endfig;
+
+%i^
+beginfig(121);
+z6=(0.2,6);
+z8=(1,7);
+z9=(1.8,6);
+z1=(1,1);
+z2=(1,5);
+draw z1--z2;
+draw z6--z8--z9;
+endfig;
+
+%o^
+beginfig(122);
+z6=(1.9,6);
+z8=(3.4,7);
+z9=(4.9,6);
+z5=(2,5);
+z7=(5,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+draw z6--z8--z9;
+endfig;
+
+%u^ bis
+beginfig(123);
+z6=(1.9,6);
+z8=(3.4,7);
+z9=(4.9,6);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1.5,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z6--z8--z9;
+endfig;
+
+%u^
+beginfig(124);
+z6=(1.5,6);
+z8=(3,7);
+z9=(4.5,6);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z6--z8--z9;
+endfig;
+
+%a trema
+beginfig(125);
+z6=(3,6.5);
+z8=(4,6.5);
+z9=(3,7);
+z10=(4,7);
+z1=(2,4.5);
+z2=(5,4);
+z3=(5,1);
+z4=(5,3.5);
+z5=(2.2,3.5);
+z7=(5,1.9);
+draw z1{dir 70}..z2--z3;
+draw z4{dir 220}..z5{dir 210}..{dir 50}z7;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%e trema
+beginfig(126);
+z6=(2.7,6.5);
+z8=(3.7,6.5);
+z9=(2.7,7);
+z10=(3.7,7);
+z2=(2,2);
+z3=(5,4.5);
+z5=(2,5);
+z1=(3,1);
+z7=(5,1);
+draw z2--z3;
+draw z3..z5..z1..z7;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%i trema
+beginfig(127);
+z6=(0.5,6.5);
+z8=(1.5,6.5);
+z9=(0.5,7);
+z10=(1.5,7);
+z1=(1,1);
+z2=(1,5);
+draw z1--z2;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%o trema
+beginfig(128);
+z6=(2.8,6.5);
+z8=(3.8,6.5);
+z9=(2.8,7);
+z10=(3.8,7);
+z5=(2,5);
+z7=(5,1);
+draw z5{dir 220}..z7;
+draw z7{dir 40}..z5;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%u bis trema
+beginfig(129);
+z6=(2.7,6.5);
+z8=(3.7,6.5);
+z9=(2.7,7);
+z10=(3.7,7);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1.5,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%u trema
+beginfig(130);
+z6=(2.5,6.5);
+z8=(3.5,6.5);
+z9=(2.5,7);
+z10=(3.5,7);
+z1=(5,0);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z6--z9;
+draw z8--z10;
+endfig;
+
+%y trema
+beginfig(131);
+z6=(2.5,6.5);
+z8=(3.5,6.5);
+z11=(2.5,7);
+z12=(3.5,7);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1,1);
+z5=(1,5);
+z9=(5,5);
+z7=(5,-0.8);
+z10=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 90}z4--z5;
+draw z9--z7{dir 270}..{dir 140}z10;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%y bis trema
+beginfig(132);
+z6=(2.7,6.5);
+z8=(3.7,6.5);
+z11=(2.7,7);
+z12=(3.7,7);
+z1=(5,-0.8);
+z2=(5,5);
+z3=(5,1);
+z4=(1.5,1);
+z5=(1.5,5);
+z9=(5,5);
+z7=(5,-0.8);
+z10=(1,-1.5);
+draw z1--z2;
+draw z3{dir 220}..{dir 50}z4..{dir 40}z5;
+draw z9--z7{dir 270}..{dir 190}z10;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%A^
+beginfig(133);
+z1=(1,0);
+z2=(4,7.5);
+z3=(7,0);
+z4=(2,2);
+z5=(6,2);
+z7=(2.5,8);
+z8=(4,9);
+z9=(5.5,8);
+draw z7--z8--z9;
+draw z1--z2--z3;
+draw z4--z5;
+endfig;
+
+%E^
+beginfig(134);
+z7=(1.5,8);
+z8=(3,9);
+z9=(4.5,8);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+z6=(5.5,0);
+draw z1--z2--z3;
+draw z4--z5;
+draw z1--z6;
+draw z7--z8--z9;
+endfig;
+
+%I^
+beginfig(135);
+z7=(0,8);
+z8=(1,9);
+z9=(2,8);
+z1=(1,0);
+z2=(1,7);
+draw z1--z2;
+draw z7--z8--z9;
+endfig;
+
+%O^
+beginfig(136);
+z7=(2.3,8);
+z8=(3.8,9);
+z9=(5.3,8);
+z1=(2,7);
+z2=(6,1);
+draw z1{dir 210}..z2;
+draw z2{dir 40}..z1;
+draw z7--z8--z9;
+endfig;
+
+%U^
+beginfig(137);
+z7=(2,8);
+z8=(3.5,9);
+z9=(5,8);
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 90}z4--z5;
+draw z7--z8--z9;
+endfig;
+
+%A aigu
+beginfig(138);
+z1=(1,0);
+z2=(4,7.5);
+z3=(7,0);
+z4=(2,2);
+z5=(6,2);
+z7=(3,8);
+z8=(5,9);
+draw z7--z8;
+draw z1--z2--z3;
+draw z4--z5;
+endfig;
+
+%E aigu
+beginfig(139);
+z7=(2,8);
+z8=(4,9);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+z6=(5.5,0);
+draw z1--z2--z3;
+draw z4--z5;
+draw z1--z6;
+draw z7--z8;
+endfig;
+
+%I aigu
+beginfig(140);
+z7=(0.5,8);
+z8=(1.5,9);
+z1=(1,0);
+z2=(1,7);
+draw z1--z2;
+draw z7--z8;
+endfig;
+
+%O aigu
+beginfig(141);
+z7=(2,8);
+z8=(5,9);
+z1=(2,7);
+z2=(6,1);
+draw z1{dir 210}..z2;
+draw z2{dir 40}..z1;
+draw z7--z8;
+endfig;
+
+%U aigu
+beginfig(142);
+z7=(2,8);
+z8=(5,9);
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 90}z4--z5;
+draw z7--z8;
+endfig;
+
+%Y aigu
+beginfig(143);
+z7=(2,8);
+z8=(5,9);
+z3=(1,7);
+z4=(3.5,0);
+z5=(6,7);
+z6=(3.5,3.5);
+draw z3--z6--z4;
+draw z5--z6;
+draw z7--z8;
+endfig;
+
+%A grave
+beginfig(144);
+z1=(1,0);
+z2=(4,7.5);
+z3=(7,0);
+z4=(2,2);
+z5=(6,2);
+z7=(3,9);
+z8=(5,8);
+draw z7--z8;
+draw z1--z2--z3;
+draw z4--z5;
+endfig;
+
+%E grave
+beginfig(145);
+z7=(2,9);
+z8=(4,8);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+z6=(5.5,0);
+draw z1--z2--z3;
+draw z4--z5;
+draw z1--z6;
+draw z7--z8;
+endfig;
+
+%I grave
+beginfig(146);
+z7=(0.5,9);
+z8=(1.5,8);
+z1=(1,0);
+z2=(1,7);
+draw z1--z2;
+draw z7--z8;
+endfig;
+
+%O grave
+beginfig(147);
+z7=(2,9);
+z8=(5,8);
+z1=(2,7);
+z2=(6,1);
+draw z1{dir 210}..z2;
+draw z2{dir 40}..z1;
+draw z7--z8;
+endfig;
+
+%U grave
+beginfig(148);
+z7=(2,9);
+z8=(5,8);
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 90}z4--z5;
+draw z7--z8;
+endfig;
+
+%A trema
+beginfig(149);
+z6=(3.5,8.5);
+z8=(4.5,8.5);
+z11=(3.5,9);
+z12=(4.5,9);
+z1=(1,0);
+z2=(4,7.5);
+z3=(7,0);
+z4=(2,2);
+z5=(6,2);
+draw z1--z2--z3;
+draw z4--z5;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%E trema
+beginfig(150);
+z6=(2.5,8.5);
+z8=(3.5,8.5);
+z11=(2.5,9);
+z12=(3.5,9);
+z1=(1,0);
+z2=(1,7);
+z3=(5,7);
+z4=(1,3.7);
+z5=(4.5,3.7);
+z7=(5.5,0);
+draw z1--z2--z3;
+draw z4--z5;
+draw z1--z7;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%I trema
+beginfig(151);
+z6=(0.5,8.5);
+z8=(1.5,8.5);
+z11=(0.5,9);
+z12=(1.5,9);
+z1=(1,0);
+z2=(1,7);
+draw z1--z2;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%O trema
+beginfig(152);
+z6=(3,8.5);
+z8=(4,8.5);
+z11=(3,9);
+z12=(4,9);
+z1=(2,7);
+z2=(6,1);
+draw z1{dir 210}..z2;
+draw z2{dir 40}..z1;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%U trema
+beginfig(153);
+z6=(3,8.5);
+z8=(4,8.5);
+z11=(3,9);
+z12=(4,9);
+z1=(6,0);
+z2=(6,7);
+z3=(6,1);
+z4=(1,1);
+z5=(1,7);
+draw z1--z2;
+draw z3{dir 210}..{dir 90}z4--z5;
+draw z6--z11;
+draw z8--z12;
+endfig;
+
+%%
+beginfig(154);
+z1=(2,7);
+z2=(3.5,6);
+z3=(5,1.5);
+z4=(6.5,0.5);
+z5=(6,7);
+z6=(2,0);
+draw z1{dir 235}..z2;
+draw z2{dir 55}..z1;
+draw z3{dir 235}..z4;
+draw z4{dir 55}..z3;
+draw z5--z6;
+endfig;
+
